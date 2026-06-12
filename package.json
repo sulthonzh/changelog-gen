@@ -1,0 +1,17 @@
+{
+  "name": "changelog-gen",
+  "version": "1.0.0",
+  "description": "Generate changelogs from conventional commits. Zero deps.",
+  "main": "src/index.js",
+  "bin": {
+    "changelog-gen": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": ["changelog", "conventional-commits", "semver", "release-notes", "cli"],
+  "license": "MIT",
+  "author": "sulthonzh",
+  "repository": "https://github.com/sulthonzh/changelog-gen",
+  "engines": { "node": ">=16" }
+}

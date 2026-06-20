@@ -9,9 +9,27 @@
   "scripts": {
     "test": "node test/index.test.js"
   },
-  "keywords": ["changelog", "conventional-commits", "semver", "release-notes", "cli"],
+  "keywords": [
+    "changelog",
+    "conventional-commits",
+    "semver",
+    "release-notes",
+    "cli"
+  ],
   "license": "MIT",
   "author": "sulthonzh",
   "repository": "https://github.com/sulthonzh/changelog-gen",
-  "engines": { "node": ">=16" }
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "cli.js",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/sulthonzh/changelog-gen#readme",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/changelog-gen/issues"
+  }
 }

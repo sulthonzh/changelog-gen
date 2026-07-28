@@ -32,5 +32,8 @@
   "homepage": "https://github.com/sulthonzh/changelog-gen#readme",
   "bugs": {
     "url": "https://github.com/sulthonzh/changelog-gen/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
